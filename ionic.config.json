@@ -1,0 +1,8 @@
+{
+  "name": "ProyectoComputerVision",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "cd441330"
+}
