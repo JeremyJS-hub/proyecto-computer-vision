@@ -7,7 +7,7 @@ import { SignUpFormComponent } from './UI-Components/signUp/sign-up-form/sign-up
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'signIn',
+    redirectTo: 'ui',
     pathMatch: 'full'
   },
   {
