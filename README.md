@@ -12,6 +12,8 @@ Ejecute los siguientes comandos para instalar el repositorio:
 7. npx cap sync
 8. ion serve
 
-pdt: si tienes que usar el movil busca como ejecutar la app en el movil. Y si no, ejecuta ion serve para ejecutar 
+pdt: trabajen en src/app/UI-Components/principal-ui/principal-ui.component.ts
+
+pdt2: si tienes que usar el movil busca como ejecutar la app en el movil. Y si no, ejecuta ion serve para ejecutar 
     la app en el navegador, F12 para abrir DevTools del navegador y en la esquina superior derecha clickea el icono
     para mostrar como dispositivo movil y elige Iphone X
