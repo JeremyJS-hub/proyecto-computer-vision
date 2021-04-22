@@ -4,6 +4,7 @@ Ejecute los siguientes comandos para instalar el repositorio:
 
 IMPORTANTE: NO SE VUELE NINGUN PASO
 
+instalar node para los comandos.
 instalar primero ionic: npm install -g @ionic/cli
 
 1. git clone https://github.com/JeremyJS-hub/proyecto-computer-vision.git
