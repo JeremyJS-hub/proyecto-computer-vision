@@ -2,6 +2,8 @@
 
 Ejecute los siguientes comandos para instalar el repositorio:
 
+instalar primero ionic: npm i --g ionic 
+
 1. git clone https://github.com/JeremyJS-hub/proyecto-computer-vision.git
 2. cd proyecto-computer-vision
 3. npm config set registry http://registry.npmjs.org/
@@ -10,7 +12,7 @@ Ejecute los siguientes comandos para instalar el repositorio:
          @tensorflow-models/face-landmarks-detection --save fingerpose
 6. npm run build
 7. npx cap sync
-8. ion serve
+8. ionic serve
 
 pdt: trabajen en src/app/UI-Components/principal-ui/principal-ui.component.ts
 
