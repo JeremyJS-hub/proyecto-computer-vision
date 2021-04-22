@@ -77,6 +77,7 @@ export class PrincipalUIComponent implements OnInit {
           //console.log(this.estimatedGestures.gestures[0].name);
         } else if (this.estimatedGestures.gestures[0].name === 'victory') {
           //javier trabaja tu parte aqui
+          window.open("https://www.youtube.com/watch?v=q-I_wOUz1b0");
           //console.log(this.estimatedGestures.gestures[0].name);
         } else if (this.estimatedGestures.gestures[0].name === '3Zero') {
           //Eric trabaja tu parte aqui
