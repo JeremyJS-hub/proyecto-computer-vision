@@ -105,7 +105,7 @@ export class PrincipalUIComponent implements OnInit {
               var ubicacion = "Latitud: "+datos.coords.latitude + " Logitud: " + datos.coords.longitude;
 
               const countrycode:string="1";
-              const whatsappnumber:string="8297691568";
+              const whatsappnumber:string="8295246475";
 
               var url:string="https://wa.me/"+countrycode+whatsappnumber+"?text=Hola me encuentro salvo y seguro, esta es mi ubicacion en coordenadas. "+ubicacion;
               window.open(url,);
