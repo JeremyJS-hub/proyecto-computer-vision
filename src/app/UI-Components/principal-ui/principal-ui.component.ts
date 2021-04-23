@@ -73,8 +73,7 @@ export class PrincipalUIComponent implements OnInit {
       );
       if (this.estimatedGestures.gestures[0] != undefined) {
         if (this.estimatedGestures.gestures[0].name === 'thump_up') {
-          //Jarol trabaja tu parte aqui
-          //console.log(this.estimatedGestures.gestures[0].name);
+          this.mensaje_ubicacion();
         } else if (this.estimatedGestures.gestures[0].name === 'victory') {
           //javier trabaja tu parte aqui
           window.open("https://www.youtube.com/watch?v=q-I_wOUz1b0");
@@ -95,4 +94,25 @@ export class PrincipalUIComponent implements OnInit {
       //console.log('hand detected');
     }
   }
+
+  mensaje_ubicacion(){
+    if (navigator.geolocation) {
+
+          navigator.geolocation.getCurrentPosition(
+
+            function (datos) {
+              console.log("Latitud: "+datos.coords.latitude + " Logitud: " + datos.coords.longitude);
+              var ubicacion = "Latitud: "+datos.coords.latitude + " Logitud: " + datos.coords.longitude;
+
+              const countrycode:string="1";
+              const whatsappnumber:string="8297691568";
+
+              var url:string="https://wa.me/"+countrycode+whatsappnumber+"?text=Hola me encuentro salvo y seguro, esta es mi ubicacion en coordenadas. "+ubicacion;
+              window.open(url,);
+            }
+          );
+      } else {
+          alert("El navegador no acepta la geolocazación o necesita permiso para acceder.");
+      }
+    }
 }
