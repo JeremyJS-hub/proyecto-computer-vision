@@ -21,10 +21,15 @@
     "@angular/router": "~11.2.0",
     "@capacitor-community/camera-preview": "^1.2.1",
     "@capacitor/core": "2.4.7",
+    "@ionic-native/call-number": "^5.32.1",
     "@ionic/angular": "^5.5.2",
     "@tensorflow-models/face-landmarks-detection": "^0.0.3",
     "@tensorflow-models/handpose": "^0.0.7",
-    "@tensorflow/tfjs-node": "^3.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.4.0",
+    "@tensorflow/tfjs-core": "^3.4.0",
+    "@tensorflow/tfjs-node": "^1.2.9",
+    "call-number": "^1.0.1",
+    "face-api.js": "^0.22.2",
     "fingerpose": "^0.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
@@ -63,5 +68,10 @@
     "ts-node": "~8.3.0",
     "typescript": "~4.0.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
 }

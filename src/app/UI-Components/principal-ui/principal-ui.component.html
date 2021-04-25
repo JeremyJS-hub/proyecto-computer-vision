@@ -1,5 +1,17 @@
-<div
-id="cameraContainer"
-class="cameraContainer"
-[style]="divVideoStyle"
-></div>
+<ion-content color="light">
+  <div
+    id="cameraContainer"
+    class="cameraContainer"
+    [style]="divVideoStyle"
+    >
+    <canvas [style]="canvasStyle"></canvas>
+</div>
+  <div [style]="divButtonsStyle">
+    <ion-button id="btnF"style="width: 100%" (click)="recognizeFace()"
+      >Cambiar a Rec. Facial</ion-button
+    >
+    <ion-button id="btnG" (click)="recognizeGesture()" style="width: 100%"
+      >Cambiar a Rec. de Gestos</ion-button
+    >
+  </div>
+</ion-content>
