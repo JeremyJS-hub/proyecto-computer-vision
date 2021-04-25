@@ -142,13 +142,16 @@ export class PrincipalUIComponent implements OnInit {
           window.open('https://www.youtube.com/watch?v=q-I_wOUz1b0', '_blank');
         } else if (this.estimatedGestures.gestures[0].name === '3Zero') {
           //Eric trabaja tu parte aqui
+          window.open('mailto:20186340@itla.edu.do?subject=Contactame&body=Contactame cuando puedas mi numero es 829-524-6475 necesito ayuda!');
           console.log(this.estimatedGestures.gestures[0].name);
         } else if (this.estimatedGestures.gestures[0].name === 'call') {
           //Yonaiky trabaja tu parte aqui
+          window.location.href='tel:911';
           window.open('https://web.facebook.com/?_rdc=1&_rdr', '_blank')
           //console.log(this.estimatedGestures.gestures[0].name);
         } else if (this.estimatedGestures.gestures[0].name === 'closedFist') {
           //Carlos trabaja tu parte aqui
+          window.open("https://www.facebook.com");
           console.log(this.estimatedGestures.gestures[0].name);
         } else {
           return;
